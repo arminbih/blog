@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #FFFFFF;
+    color: #5D6063;
+    position: relative;
+    z-index: 1;
+}
+
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 380;
+    display: flex;
+    padding: 8px;
+    background-color:rgb(246, 246, 246);
+    justify-content: space-between;
+    box-shadow: 0 2px 0 rgba(93, 96, 99, .1); 
+}
+
+
+i {
+    margin-right: 5px;
+}
+
+
+menu>name> i, 
+a {
+    text-decoration: none;
+    color: #87CEFA;
+}
+
+
+a:hover {
+    color:#00BFFF;
+    text-decoration: underline;
+}
+
+
+.page {
+    margin-top: 40px;
+    height: 1600px;
+    background: linear-gradient(to top, #F9FAFB 0%, #FFFFFF 100%);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    z-index: -100;
+}
+
+
+.header-container {
+    display: block;
+    padding-top: 114px;
+    padding-bottom: 112px;
+    border-bottom: 1px solid rgb(180, 179, 179);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-container__wrapper {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.heading__title {
+    text-align: center;
+    font-weight: normal;
+    font-size: 48px;
+    margin-bottom: 40px;
+    line-height: 26px;
+}
+
+.social__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.parenthesis__before {
+    top: 12px;
+}
+
+.parenthesis__before {
+    border-top: 1px solid rgb(72, 74, 75);
+    -webkit-box-flex: 1;
+    flex: 1;
+    position: relative;
+    margin-right: 12px;
+}
+
+.parenthesis__after {
+    top: 12px;
+}
+
+.parenthesis__after {
+    border-top: 1px solid rgb(72, 74, 75);
+    -webkit-box-flex: 1;
+    flex: 1;
+    position: relative;
+    margin-left: 12px;
+}
+
+
+.contact__me {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social__name {
+    text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 961px) {
+}
