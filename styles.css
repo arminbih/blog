@@ -124,20 +124,24 @@ a {
 
 .content-container {
     border-bottom: 1px solid rgb(72,74,75);
+    width: 100%;
     
 }
 
 .content__wrapper {
     text-align: justify;
-    max-width: 600px;
+    max-width: 580px;
     padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .content-heading__wrapper {
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .content-a:hover {
