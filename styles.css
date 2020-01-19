@@ -13,6 +13,7 @@ body {
     color: #5D6063;
     position: relative;
     z-index: 1;
+    height: 1600px;
 }
 
 
@@ -22,7 +23,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 1000;
-    font-weight: 380;
+    font-weight: 404;
     display: flex;
     padding: 8px;
     background-color:rgb(246, 246, 246);
@@ -36,15 +37,15 @@ i {
 }
 
 
-menu>name> i, 
+i, 
 a {
     text-decoration: none;
-    color: #87CEFA;
+    color:#90caf9;
 }
 
 
-a:hover {
-    color:#00BFFF;
+.menu-a:hover {
+    color:#bbdefb;
     text-decoration: underline;
 }
 
@@ -57,7 +58,6 @@ a:hover {
     position: relative;
     z-index: -100;
 }
-
 
 .header-container {
     display: block;
@@ -72,11 +72,11 @@ a:hover {
     margin-right: auto;
 }
 
-
 .heading__title {
     text-align: center;
     font-weight: normal;
     font-size: 48px;
+    font-weight: 600;
     margin-bottom: 40px;
     line-height: 46px;
 }
@@ -113,7 +113,6 @@ a:hover {
     margin-left: 12px;
 }
 
-
 .contact__me {
     text-align: center;
     margin-bottom: 20px;
@@ -122,17 +121,35 @@ a:hover {
     text-align: center;
 }
 
+
 .content-container {
-    border-bottom: 1 px solid rgb(72,74,75);
+    border-bottom: 1px solid rgb(72,74,75);
+    
 }
 
 .content__wrapper {
-    max-width: 580px;
+    text-align: justify;
+    max-width: 600px;
     padding-top: 40px;
     padding-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.content-heading__wrapper {
+    padding-bottom: 10px;
+}
+
+.content-a:hover {
+    color:#bbdefb;
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: 600;
+}
+
+
 
 
 
