@@ -23,7 +23,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 1000;
-    font-weight: 404;
+    font-weight: 440;
     display: flex;
     padding: 8px;
     background-color:rgb(246, 246, 246);
@@ -31,6 +31,10 @@ body {
     box-shadow: 0 2px 0 rgba(93, 96, 99, .1); 
 }
 
+.links-menu {
+    display: flex;
+    font-weight: 500;
+}
 
 i {
     margin-right: 5px;
