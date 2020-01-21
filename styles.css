@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -48,7 +49,8 @@ a {
 }
 
 
-.menu-a:hover {
+.menu-a:hover,
+.menu-a:active {
     color:#bbdefb;
     text-decoration: underline;
 }
@@ -190,7 +192,7 @@ strong {
     box-decoration-break: clone;
     display: inline;
     background-color:rgb(254, 254, 254);
-    box-shadow:rgb(254, 254, 254) 11px 0px 0px, rgb(254, 254, 254) -13px 0px 0px;
+    box-shadow:rgb(254, 254, 254) 11px 0px 0px, rgb(254, 254, 254) -11px 0px 0px;
 }
 
 
@@ -204,7 +206,7 @@ strong {
     top: -10px;
     z-index: -1;
     left: -18px;
-    padding-right: 36px;
+    padding-right: -36px;
 }
 
 
