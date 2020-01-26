@@ -9,7 +9,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 1.6em;
+    letter-spacing: normal;
     background-color: #FFFFFF;
     color: #5D6063;
     position: relative;
