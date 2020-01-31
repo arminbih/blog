@@ -9,11 +9,14 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 19px;
-    line-height: 1.6em;
+    line-height: 1.6rem;
     letter-spacing: normal;
     word-spacing: 1.4px;
-    background-color: #FFFFFF;
-    color: rgb(91, 92, 93);
+    font-weight: 500;
+
+    background-color: #fff;
+    color: #817c89;
+
     position: relative;
     z-index: 1;
     height: 1600px;
