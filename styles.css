@@ -15,11 +15,15 @@ body {
     font-weight: 500;
 
     background-color: #fff;
-    color: #817c89;
+    color: #696c87;
 
     position: relative;
     z-index: 1;
-    height: 1600px;
+    min-height: 1600px;
+}
+
+p {
+    margin-bottom: 0.8rem;
 }
 
 
