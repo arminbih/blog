@@ -19,11 +19,18 @@ body {
 
     position: relative;
     z-index: 1;
-    min-height: 1600px;
+    min-height: 3800px;
 }
 
 p {
     margin-bottom: 0.8rem;
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    list-style: none;
 }
 
 
@@ -236,6 +243,11 @@ strong {
 
 .footer__text {
     margin-bottom: 10px;
+}
+
+.social {
+    padding-top: 5px;
+    padding-bottom: 0;
 }
 
 
