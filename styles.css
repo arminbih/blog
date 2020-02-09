@@ -32,6 +32,14 @@ li {
     margin-left: 0px;
     list-style: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
 
 
 .menu {
@@ -237,7 +245,7 @@ strong {
 
 .footer {
     min-height: 300px;
-    border-bottom: none;
+    
    
 }
 
@@ -250,7 +258,9 @@ strong {
     padding-bottom: 0;
 }
 
-
+.content__wrapper.socket {
+    padding: 0px;
+}
 
 
 
