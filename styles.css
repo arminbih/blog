@@ -19,7 +19,7 @@ body {
 
     position: relative;
     z-index: 1;
-    min-height: 3800px;
+    min-height: 1600px;
 }
 
 p {
@@ -107,7 +107,7 @@ a {
     font-weight: normal;
     font-size: 48px;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
     line-height: 46px;
 }
 
@@ -259,7 +259,7 @@ strong {
 }
 
 .content__wrapper.socket {
-    padding: 0px;
+    padding: 40px;
 }
 
 
