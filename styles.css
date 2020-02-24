@@ -189,6 +189,14 @@ a {
     text-align: center;
 }
 
+.content-heading {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contents {
+    text-align: center;
+}
 
 
 strong {
