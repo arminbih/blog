@@ -305,5 +305,8 @@ strong {
     .content__wrapper {
         text-align: left;
     }
+    .contents {
+        text-align: center;
+    }
 
 }
