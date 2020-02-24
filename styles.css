@@ -27,10 +27,14 @@ p {
 }
 
 li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin-left: 0px;
     list-style: none;
+}
+
+.list-last-item {
+    padding-bottom: 4rem;
 }
 h1,
 h2,
@@ -190,8 +194,8 @@ a {
 }
 
 .content-heading {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
 }
 
 .contents {
