@@ -215,6 +215,16 @@ a:hover {
     margin-right: auto;
 }
 
+.bosanski-naglaseno {
+    text-align: justify;
+    max-width: 340px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .small-print {
     font-size: 10px;
 
@@ -235,6 +245,17 @@ a:hover {
     padding-bottom: 0px;
     text-align: center;
 }
+
+
+  .darkness:hover {
+    background-color: rgb(34, 32, 32);
+    -webkit-transition: background-color .4s ease-out, background-color .4s ease-out;
+       -moz-transition: background-color .4s ease-out, background-color .4s ease-out;
+        -ms-transition: background-color .4s ease-out, background-color .4s ease-out;
+         -o-transition: background-color .4s ease-out, background-color .4s ease-out;
+            transition: background-color .4s ease-out, background-color .4s ease-out;
+}
+
 
 .content-heading {
     padding-top: 4rem;
