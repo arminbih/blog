@@ -1,11 +1,10 @@
 # blog
 cvblog
 
+Welcome to my personal blog.
 
-Wellcome to my personal Blog
+It serves as an insight into my experiences and the wisdom gained throughout the years.
 
-It serves as an insight to my experiences, and a kind of wisdom gaind trhuought the years.
+I hope it can help someone feel like they are not alone in their struggles.
 
-Hope it can help someone feel like they are not alone in their struggles. 
-
-Happy reading and also I am woking on improving typos.
+Happy reading, and I am also working on improving any typos.
